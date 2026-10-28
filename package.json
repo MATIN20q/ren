@@ -1,0 +1,14 @@
+{
+  "name": "mf-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "M&F Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-uncaught index.js",
+    "test": "node --check index.js && node -e \"require('./index').runSelfTest().catch(e=>{console.error(e);process.exit(1)})\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
